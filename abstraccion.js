@@ -15,7 +15,33 @@ class Course {
   get name() {
     return this._name;
   }
+  //Setter para controlar la modificación de la propiedad name.
+  set name(nuevoNombre) {
+    this._name = nuevoNombre;
+  }
 }
+
+// Crear instancias de Course
+const cursoProgBasica = new Course({
+  name: "Curso de Programación Básica",
+  classes: ["Variables", "Funciones", "Estructuras de Control"],
+});
+
+const cursoDataBusiness = new Course({
+  name: "Curso de Data Business",
+  classes: ["Análisis de Datos", "Toma de Decisiones Basada en Datos"],
+});
+
+const CursoDesarrolloVideojuegos = new Course({
+  name: "Curso de Desarrollo de Videojuegos",
+  classes: ["Diseño de Juegos", "Programación de Juegos", "Arte para Juegos"],
+});
+
+//Invocar el getter para obtener el nombre del curso
+cursoProgBasica.name;
+
+//Invocar el setter para cambiar el nombre del curso
+cursoProgBasica.name = "Curso de Programacion para Principiantes";
 
 // Crear instancias de LearningPath
 const escuelaWeb = new LearningPath({
@@ -35,20 +61,4 @@ const escuelaVgs = new LearningPath({
     CursoDesarrolloVideojuegos,
     "Curso de Unreal Engine",
   ],
-});
-
-// Crear instancias de Course
-const cursoProgBasica = new Course({
-  name: "Curso de Programación Básica",
-  classes: ["Variables", "Funciones", "Estructuras de Control"],
-});
-
-const cursoDataBusiness = new Course({
-  name: "Curso de Data Business",
-  classes: ["Análisis de Datos", "Toma de Decisiones Basada en Datos"],
-});
-
-const CursoDesarrolloVideojuegos = new Course({
-  name: "Curso de Desarrollo de Videojuegos",
-  classes: ["Diseño de Juegos", "Programación de Juegos", "Arte para Juegos"],
 });

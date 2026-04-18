@@ -12,9 +12,9 @@ Guia de estudio practica para entender Programacion Orientada a Objetos en JavaS
 
 | Archivo | Tema principal | Pregunta clave de estudio |
 |---|---|---|
-| `main.js` | Objeto literal y funcion constructora | Cuando deja de escalar un objeto literal |
-| `classes.js` | Clases ES6 y tipos de constructor | Que gano con constructor por objeto |
-| `comparativeOL&Classes.js` | Comparacion integral + composicion | Como modelar un dominio mas real |
+| `objetos-y-prototipos.js` | Objeto literal y funcion constructora | Cuando deja de escalar un objeto literal |
+| `clases-es6.js` | Clases ES6 y tipos de constructor | Que gano con constructor por objeto |
+| `comparacion-objetos-vs-clases.js` | Comparacion integral + composicion | Como modelar un dominio mas real |
 | `index.html` | Ejecucion en navegador | Como observar resultados en consola |
 
 ---
@@ -31,7 +31,7 @@ Al terminar estos ejercicios deberias poder:
 
 ## Ruta de estudio sugerida (en orden)
 
-### 1) `main.js` - Fundamentos de modelado
+### 1) `objetos-y-prototipos.js` - Fundamentos de modelado
 
 **Enfocate en:**
 - diferencia entre dato y comportamiento
@@ -43,7 +43,7 @@ Al terminar estos ejercicios deberias poder:
 2. Agrega 2 cursos.
 3. Imprime `cantidadCursosAprobados()`.
 
-### 2) `classes.js` - Escalabilidad con sintaxis ES6
+### 2) `clases-es6.js` - Escalabilidad con sintaxis ES6
 
 **Enfocate en:**
 - `class` como azucar sintactica
@@ -55,7 +55,7 @@ Al terminar estos ejercicios deberias poder:
 2. Ejecuta `removeCurso(curso)` y verifica resultado.
 3. Compara legibilidad de ambos constructores.
 
-### 3) `comparativeOL&Classes.js` - Integracion completa
+### 3) `comparacion-objetos-vs-clases.js` - Integracion completa
 
 **Enfocate en:**
 - comparacion objeto literal vs clase
